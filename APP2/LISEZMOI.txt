@@ -1,0 +1,76 @@
+Recommandations sur l'utilisation des fichiers pour l'APP2.
+A lire absolument !
+
+
+****************************************************************
+**  Pour tout le monde                                        **
+****************************************************************
+
+Renseignez ici les noms des membres de votre binôme :
+
+Nom1 - prénom1 : UNAY Arhan
+Nom2 - prénom2 : TURKMEN Ege
+
+Si vous avez des commentaires, remarques etc. pour le rendu, vous pouvez les 
+mettre ici:
+
+Monsieur,On ne comprends pas toujours  pourquoi on a recu une leak dans la fonction conversion, on a pense que comme on ne peut pas detruire la seq(car si on detruis on a l'erreur de assertion) on a recu cette erreur.
+Nous avons parlé de ce problème avec vous en classe et vous avez dit que c'était ridicule et que vous n'en trouviez pas la raison.
+On pense que le problème serait résolu si nous pouvions supprimer la séquence et la rouvrir sans exécuter chaque test, mais main.c ne le permet pas.
+
+On a utilise le pile  car je devais utiliser les fonction comme empiler et depiler et pour ca grace a structure de la pile c'etait plus facile a realiser.
+D'abord dans la structure pile on a une n qui montre la taille de la pile est apres on a une tab qui contien les entier et aussi les liste (pour les groupe de commande) et apres 
+on a enfin une liste qui contient les type des element qui se trouve dans tab dans meme orde.Par ex si dernierType[i] est 0 alors je comprend que tab[i] est un entier sinon c'est une 
+liste et grace a cette structure trop facilite a ecrire les fonctions qui utilise les groupe de commande.
+...
+...
+
+
+
+
+****************************************************************
+**  Langage Python                                            **
+****************************************************************
+
+Utilisez (et modifiez) le script "run.py" fourni.
+(Lire le debut de ce fichier pour une explication de comment lancer les tests.)
+
+
+Pour les tests de performance : lire le fichier LISEZMOI-perfs.txt
+
+
+****************************************************************
+**  Langage C                                                 **
+****************************************************************
+
+Compilation
+-----------
+Pour compiler :
+> make
+
+ou
+
+> clang -Wall -Wextra main.c -o main curiosity.c interprete.c listes.c
+(Nous vous conseillons d'utiliser le compilateur clang plutôt que gcc.)
+
+
+Lancer un test
+--------------
+
+Test complet
+> ./main tests/<nom de test>.test
+
+Test en mode "pas à pas" :
+> ./main -d tests/<nom de test>.test
+
+
+Lancer une suite de tests
+-------------------------
+
+Tests fonctionnels :
+> ./tests/check.py c
+
+Tests en vérifiant les erreurs ou fuites mémoire:
+> ./tests/check.py --mem c
+
+Pour les tests de performance : lire le fichier LISEZMOI-perfs.txt

@@ -1,0 +1,38 @@
+CC=clang 
+CFLAGS=-g -Wall -Wextra -Werror -gdwarf-4
+
+EXEC=client-introduction client-tutoriel client-interactif client-tutorielFORT projetX planB_decalage crypteMove BayOfPigs OneMillion crypteSeq Northwoods LostCause
+
+all: $(EXEC)
+
+client-interactif: client-interactif.o client.o
+
+client-tutoriel: client-tutoriel.o client.o
+
+client-tutorielFORT: client-tutorielFORT.o client.o
+
+projetX: projetX.o client.o
+
+planB_decalage: planB_decalage.o client.o
+
+crypteMove: crypteMove.o client.o
+
+BayOfPigs: BayOfPigs.o client.o 
+
+OneMillion: OneMillion.o client.o
+
+crypteSeq: crypteSeq.o client.o
+
+Northwoods: Northwoods.o client.o
+
+LostCause: LostCause.o
+
+client-introduction: client-introduction.o client.o
+
+client.o: client.c client.h
+
+clean:
+	rm -f *.o
+
+clear:
+	rm -f $(EXEC)
