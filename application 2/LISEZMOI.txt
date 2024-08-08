@@ -6,10 +6,6 @@ A lire absolument !
 **  Pour tout le monde                                        **
 ****************************************************************
 
-Renseignez ici les noms des membres de votre binôme :
-
-Nom1 - prénom1 : UNAY Arhan
-Nom2 - prénom2 : TURKMEN Ege
 
 Si vous avez des commentaires, remarques etc. pour le rendu, vous pouvez les 
 mettre ici:
