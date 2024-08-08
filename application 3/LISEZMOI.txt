@@ -6,10 +6,7 @@ A lire absolument !
 **  Pour tout le monde                                        **
 ****************************************************************
 
-Renseignez ici les noms des membres de votre binôme :
 
-Nom1 - prénom1 : Unay Arhan
-Nom2 - prénom2 : Turkmen Ege
 
 Si vous avez des commentaires, remarques etc. pour le rendu, vous pouvez les mettre ici:
 -On n'a pas compris exactement le consigne du acte1 (on a besoin 2 fonction de rerche ou pas) donc on le fait avec 2 different methode (methode 2 entre les lignes 42-72 du arbresphylo.c).
